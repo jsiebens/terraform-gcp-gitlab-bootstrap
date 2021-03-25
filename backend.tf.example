@@ -1,0 +1,6 @@
+terraform {
+  backend "gcs" {
+    bucket = "REPLACE_ME"
+    prefix = "terraform/bootstrap/state"
+  }
+}
